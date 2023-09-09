@@ -1,0 +1,116 @@
+*{ margin: 0px; padding: 0px; box-sizing: border-box;}
+
+/* ================================= start nav ======================================= */
+#name{ font-size: 30px; margin: 0px 150px;}
+#cler{ color: rgb(0, 255, 115);}
+.collapse{ margin: 0px 200px }
+.nav-link{ font-size: 20px; margin-right: 30px;}
+.nav-link:hover{ color:rgb(0, 255, 115) !important;}
+
+/* ================================= start header ===================================== */
+
+header{ background-color: black; height: 600px;}
+.text-header{ position: absolute; margin-top: 150px; width: 600px;}
+#name-1{ font-size: 22px; color: rgb(0, 255, 115); }
+.text-header h1{ font-size: 70px; color: white; margin-top: -5px; ;}
+.text-header p{ font-size: 20px; color: white; margin-top: 5px;}
+#spin{ color:rgb(0, 255, 115) ; font-size: 35px;  }
+#spin::after{ content: ""; animation: spin 3s linear infinite; }
+@keyframes spin{  0%{ content: "Front-End Developer";}  50%{ content: "Wed Deisgner";}  100%{ content: "Freelancer";} }
+.btn-1{ padding: 5px 20px; border-radius: 10px; border:none; background-color: rgb(0, 255, 115); margin-top: 5px;}
+.btn-1 a{ color: white; font-size: 20px; text-decoration: none;}
+.btn-1 a:hover{ color: white; font-size: 20px; text-decoration: none;}
+.photo0{ width: 650px; height:550px; background:url('../img/header.png') no-repeat; background-size: cover; float: right; margin-top: 50px; margin-right: 50px;}
+
+/* ================================= start section one ================================ */
+.one{background-color:  rgb(35, 34, 34); padding: 50px 0px;}
+.one span{ margin-left: 490px; font-size: 20px; color:rgb(0, 255, 115);}
+.one h2{ font-size: 50px;  color: white;}
+.photo-1{ width: 500px; height: 420px;  margin-top: 50px; margin-bottom: 30px; }
+.photo-1 i{ font-size: 50px;position: absolute; margin-top: 80px; margin-left: 40px; background-color:rgb(0, 255, 115); padding: 10px; border-radius: 10px; }
+.photo-0{ width:330px; height: 350px; background: url('../img/About.jpg') no-repeat; background-size: cover; float: right;}
+.photo-00{ width: 230px; height: 250px; background: url('../img/About.jpg') no-repeat; background-size: cover; margin-top: 220px; position: absolute;}
+.text-photo{ position: relative; margin-left: 270px; margin-top: 380px; position: absolute;  width: 200px; height: 70px; }
+.text-photo .line{ width: 5px; height: 70px; background-color: rgb(0, 255, 115);}
+#oo{ margin-left: 10px; font-size: 50px; padding: 5px; margin-top: -80px; position: absolute;}
+.ll{ margin-top: -60px; color: white;}
+#pp{ margin-left: 10px; color: white;}
+h4{ font-size: 30px; position: absolute; margin-left: 80px; margin-top: -150px; }
+/* *** */
+.text-section-one{ width: 400px; margin-left: 600px; margin-top: -440px; position: absolute;}
+.text-section-one h5{ color: white; font-size: 30px;}
+.text-section-one p{ color: white;}
+.box{ width: 400px; height: 200px; border: 1px solid white; border-radius: px; margin-top: 20px; border-top-right-radius:10px; border-bottom-right-radius:10px; border-top-left-radius:10px; border-bottom-left-radius:10px;}
+.box-1{ width:200px; height: 200px; padding: 10px; border: 1px solid white;border-top-left-radius:10px; border-bottom-left-radius:10px; }
+.box-1 h3{font-size: 18px; color: rgb(0, 255, 115); }
+.box-1 p{ font-size: 15px; color: white;}
+.box-2{ margin-left: 200px; margin-top: -200px; width:200px; height: 200px; padding: 10px; border: 1px solid white;border-top-right-radius:10px; border-bottom-right-radius:10px;}
+.box-2 h3{font-size: 18px; color: rgb(0, 255, 115); }
+.box-2 p{ font-size: 15px; color: white; } 
+.btn-3{ margin-top: 20px; padding: 10px 15px; color: white; background-color: rgb(0, 255, 115);border: none; border-radius: 10px;}
+
+/* ================================ start section two ================================== */
+.two{ padding: 100px 0; background-color: black;}
+.two span{ margin-left: 490px; font-size: 20px; color:rgb(0, 255, 115);}
+.two h2{ font-size: 50px; color: white; margin-bottom: 50px;}
+.two p{ color: white; margin-bottom: 80px;}
+#mmm h5{color: white; }
+#mmm #skills{ float: right; color: white; font-size: 20px; margin-top: -33px; margin-right: 30px; color: rgb(0, 255, 115);}
+
+.onee .line{ margin-top: 10px; width: 500px; height: 20px; border: 2px solid white; border-radius: 10px;}
+.onee .line-e{ width: 450px; height: 17px; background-color: rgb(0, 255, 115);border-radius: 10px;}
+
+.twoo{ margin-top: 60px;}
+.twoo .line{ margin-top: 10px; width: 500px; height: 20px; border: 2px solid white; border-radius: 10px;}
+.twoo .line-e{ width: 400px; height: 17px; background-color: rgb(0, 255, 115);border-radius: 10px;}
+
+.threee{ margin-top: 60px;}
+.threee .line{ margin-top: 10px; width: 500px; height: 20px; border: 2px solid white; border-radius: 10px;}
+.threee .line-e{ width: 470px; height: 17px; background-color: rgb(0, 255, 115);border-radius: 10px;}
+
+/* ****** */
+#mm{ margin-top: -59px; }
+#mm h5{color: white; }
+#mm #skills{ float: right; color: white; font-size: 20px; margin-top: -33px; margin-right: 30px; color: rgb(0, 255, 115);}
+
+.foure{ margin-top: 60px;}
+.foure .line{ margin-top: 10px; width: 500px; height: 20px; border: 2px solid white; border-radius: 10px;}
+.foure .line-e{ width: 350px; height: 17px; background-color: rgb(0, 255, 115);border-radius: 10px;}
+
+.five{ margin-top: 60px;}
+.five .line{ margin-top: 10px; width: 500px; height: 20px; border: 2px solid white; border-radius: 10px;}
+.five .line-e{ width: 300px; height: 17px; background-color: rgb(0, 255, 115);border-radius: 10px;}
+
+.six{ margin-top: 60px;}
+.six .line{ margin-top: 10px; width: 500px; height: 20px; border: 2px solid white; border-radius: 10px;}
+.six .line-e{ width: 490px; height: 17px; background-color: rgb(0, 255, 115);border-radius: 10px;}
+
+/* ============================ start section three ============================================== */
+.three{ padding: 100px 0px;  background-color: rgb(35, 34, 34); }
+.three span{ margin-left: 490px; font-size: 20px; color:rgb(0, 255, 115);}
+.three h2{ font-size: 50px; color: white; margin-bottom: 50px;}
+.btn-2{ padding: 10px 30px ; background-color: rgb(0, 255, 115); border: none; border-radius: 10px; color: white; font-size: 25px; margin-left:370px; margin-top: 50px; }
+
+/* ============================ start section four ================================================ */
+.four{ padding: 100px 0; background-color: black;}
+.four #ooo{ margin-left: 490px; font-size: 20px; color:rgb(0, 255, 115);}
+.four h2{ font-size: 50px; color: white; margin-bottom: 50px;}
+input{ padding: 10px; height: 40px; width: 340px; border-radius: 5px; background-color: rgb(35, 35, 35); border: none; }
+.qq{ margin: 5px 18px;}
+.uu{ background-color: rgb(35, 35, 35); margin: 10px 15px;border: none; padding: 6px 25px; border-radius: 10px; }
+#cont h4{ font-size: 30px; color: white;margin-top: -35px; margin-left: 12px;  }
+#cont a{  display: block; margin: 15px; font-size: 25px; width: 35px; padding: 0px 5px; background-color: rgb(0, 255, 115); text-decoration: none; color: white;}
+#cont a:hover{ color: rgb(0, 255, 115); background-color: white;}
+.iconn{ margin-left: 20px ; margin-top: -3px; position: absolute;}
+.iconn:hover{ color: rgb(0, 255, 115);}
+.btn-4{ background-color: rgb(0, 255, 115); color: white; padding: 5px 30px; border: none; border-radius: 10px; font-size: 20px; float: right; margin-right: 10px;}
+#cont{ margin-top: 30px;}
+
+/* ====================================== start footer ================================================= */
+footer{ padding: 10px 0; background-color: rgb(35, 34, 34);}
+footer h2{ color:rgb(0, 255, 115) ; margin-top: 20px;}
+footer h2 a{ color: rgb(0, 255, 115); } footer h2 a:hover{ color: rgb(0, 255, 115); text-decoration: none;}
+footer p{ color: white; font-size: 20px;}
+
+footer ul li #last{ color: white; text-decoration: none;list-style: none; } footer ul li #last:hover{ color: rgb(0, 255, 115) ;}
+footer ul li #last-two{ color: white; text-decoration: none;list-style: none; } footer ul li #last-two:hover{ color: rgb(0, 255, 115) ;} 
